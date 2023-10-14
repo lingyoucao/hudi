@@ -305,8 +305,42 @@
 
   <repositories>
     <repository>
+      <id>nexus-aliyun</id>
+      <name>nexus-aliyun</name>
+      <url>https://maven.aliyun.com/repository/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+
+
+    <repository>
+      <id>cloudera</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    </repository>
+
+    <repository>
       <id>confluent</id>
       <url>https://packages.confluent.io/maven/</url>
+    </repository>
+
+    <repository>
+      <id>spring</id>
+      <url> https://repo.spring.io/milestone/</url>
+    </repository>
+
+    <!--<repository>
+      <id>spark-repo</id>
+      <url>http://dl.bintray.com/spark-packages/maven/</url>
+    </repository>-->
+
+    <repository>
+      <id>central</id>
+      <name>central</name>
+      <url>http://repo2.maven.org/maven2/</url>
     </repository>
   </repositories>
 
