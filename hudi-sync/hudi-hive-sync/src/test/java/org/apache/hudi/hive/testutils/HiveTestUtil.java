@@ -247,7 +247,7 @@ public class HiveTestUtil {
 
     try {
       if (zkServer != null) {
-        zkServer.shutdown(true);
+        zkServer.shutdown();
       }
     } catch (Exception e) {
       e.printStackTrace();
